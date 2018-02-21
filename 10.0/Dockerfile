@@ -1,6 +1,9 @@
 FROM odoo:10.0
 MAINTAINER IntoOdoo  <ccdos@intoerp.com>
 
+#切换到 root 用户继续后续操作
+USER root
+
 # Install pymssql
 RUN set -x; \
         apt-get update \
