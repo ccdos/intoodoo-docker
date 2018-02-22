@@ -13,6 +13,6 @@ RUN set -x; \
 
 # set database USER/PASSWORD
 
-
+USER odoo
 ENV DB_ENV_POSTGRES_USER intoodoo10
 ENV DB_ENV_POSTGRES_PASSWORD intoodoo10
