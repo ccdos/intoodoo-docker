@@ -8,7 +8,7 @@ USER root
 RUN set -x; \
         apt-get update \
         && apt-get install -y --no-install-recommends \
-            pymssql
+            python-pymssql
 
 
 # set database USER/PASSWORD
