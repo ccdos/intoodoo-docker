@@ -4,6 +4,7 @@
 sudo docker ps
 
 “0.0.0.0:49171->22/tcp, 0.0.0.0:49172->3306/tcp”
+
 容器的22端口和3306端口会被映射到宿主机器的49171和49172端口。
 
 4.3 此时就可以通过下面的命令来访问ssh和mysql服务了
@@ -15,4 +16,7 @@ mysql -h <宿主机器> -u root -pletmein -P 49172
 
 ssh admin@<容器机器IP>
 mysql -h <容器机器IP> -u root -pletmein
+
+
+
 
