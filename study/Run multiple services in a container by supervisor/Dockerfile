@@ -23,5 +23,5 @@ RUN /etc/init.d/mysqld start &&\
 RUN mkdir -p /var/log/supervisor
 COPY supervisord.conf /etc/supervisord.conf
 
-EXPOSE 22 3306
+EXPOSE 22 3306 9001
 CMD ["/usr/bin/supervisord"]
