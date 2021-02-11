@@ -18,5 +18,3 @@ ssh admin@<ÈÝÆ÷»úÆ÷IP>
 mysql -h <ÈÝÆ÷»úÆ÷IP> -u root -pletmein
 
 
-
-
